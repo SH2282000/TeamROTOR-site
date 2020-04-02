@@ -1,0 +1,218 @@
+html{
+    background: #1b1b1b;
+}
+body{
+    margin:0;
+}
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    background: linear-gradient(to right,#555a84,rgba(0, 0, 0, 0.5));
+    height: 111px;
+    overflow: hidden;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+li a
+{
+    text-decoration: none;
+    font-family:'Julius Sans One', sans-serif;
+    color: rgb(255, 255, 255);
+    padding: 2px 0px;
+    margin: 1vh;
+    text-decoration: none;
+    font-size: 23px;
+    border-radius:10px;
+    transition-property: color, background-color, padding;
+    transition-duration: 1s;
+}
+li a:hover {
+    background-color: rgba(255, 255, 255, 0.95);
+    color: rgb(0, 0, 0);
+    padding: 15px 20px;
+    margin: 1vh;
+    border-radius:10px;
+}
+.logoWrite{
+    height: 160px;
+    margin:50px;
+}
+.bienvenue{
+    background-color: #ffed00;
+    /* float: right; */
+    font-size: 22px;
+    font-family: Quicksand;
+    /* width: 100%; */
+    color: #0c0c0c;
+    padding: 28px 86px;
+    margin: 0;
+    transition-property: color, background-color, padding;
+    transition-duration: 1s;
+}
+.bienvenue:hover{
+    background-color:#bbb4ff;
+    transition-property: color, background-color, padding;
+    transition-duration: 0.5s;
+}
+.titleOrder{
+    text-align: center;
+    font-size: 123px;
+    font-family:Oswald;
+    margin: 0;
+    padding: 0px;
+    color: #ffffff;
+}
+.order{
+    background: no-repeat center/100%  url(http://www.teamrotor.com/img/propspics/HQ.jpg) fixed;
+    display:flex;
+    align-items: center;
+    padding: 89px 86px 86px 4%;
+    margin: 42px;
+    justify-content: space-between;
+    /* border-radius: 1%; */
+    box-shadow: 0px 0px 20px 2px grey;
+}
+.order2{
+    background: no-repeat center/100%  url(http://www.teamrotor.com/img/propspics/RK.jpg) fixed;
+    display:flex;
+    align-items: center;
+    padding: 89px 86px 86px 4%;
+    margin: 42px;
+    justify-content: space-between;
+    /* border-radius: 1%; */
+    box-shadow: 0px 0px 20px 2px grey;
+}
+.order3{
+    background: no-repeat center/100%  url(http://www.teamrotor.com/img/propspics/DAL.jpg) fixed;
+    display:flex;
+    align-items: center;
+    padding: 89px 86px 86px 4%;
+    margin: 42px;
+    justify-content: space-between;
+    /* border-radius: 5%; */
+    box-shadow: 0px 0px 20px 2px grey;
+}
+td{
+    font-size: 31px;
+    font-family: Quicksand;
+    font-style:  italic;
+}
+select{
+    font-size:20px;
+    font-family:Julius Sans One;
+    background-color: #ffffff;
+    border-radius:  10px;
+    padding: 12px;
+    border-color: #222d65;
+    border-width: 2px;
+}
+.rightPart{
+    display:flex;
+    flex-direction:  column;
+}
+form{
+    padding: 20px;
+    border-style:solid;
+    display:  flex;
+    align-items:  center;
+    border-width:  6px;
+    border-radius: 20px;
+    border-color: #253b80;
+    box-shadow: 10px 10px #179bd7;
+    height: 100%;
+    background-color: #ffffff;
+}
+table{
+
+}
+input{
+    margin: 0 0 0 26px;
+}
+hr{
+    width: 99%;
+    height: 3px;
+    border-radius: 0;
+    background: #000000;
+    display:none;
+}
+.picBuy{
+    display: none;
+}
+.foot{
+    font-family: 'Oswald', sans-serif;
+    font-size:20px;
+    margin-right: 20%;
+}
+.footContact{
+    font-family: 'Francois One', sans-serif;
+    font-size:20px;
+}
+footer {
+    background-color: rgb(255, 255, 255);
+    padding: 1%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 7px solid #011237;
+}
+
+@media screen and (max-width: 470px){
+.bienvenue{
+    padding:20px;
+    height: 77vh;
+}
+.titleOrder{
+    text-align:center;
+    color: #179bd7;
+    font-size:50px;
+}
+a{
+    display:none;
+}
+ul{
+    display:flex;
+    justify-content: center;
+    padding:  0;
+}
+.order{
+    display:block;
+    margin: 10px;
+    border-radius: 24px;
+    padding: 18px;
+    background: #ffffff;
+}
+.order2 {
+    display: block;
+    margin: 10px;
+    border-radius: 24px;
+    padding: 18px;
+    background: #ffffff;
+}
+.order3 {
+    display: block;
+    margin: 10px;
+    border-radius: 24px;
+    padding: 18px;
+    background: #ffffff;
+}
+form{
+    display:flex;
+    flex-direction:column;
+    height:100%;
+    margin: 25px 0 0 0;
+    border-width: 4px;
+    box-shadow: 7px 7px 10px #189bd7;
+}
+input{
+    margin:0;
+    width: 100%;
+}
+hr{
+    background:#edf0ff;
+}
+.foot{
+   display:none;
+}
+}
